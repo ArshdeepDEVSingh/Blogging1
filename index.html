@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang='en' class='html' id='html'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title class='title' id='title'>Masterbasics</title>
+    <link rel='stylesheet' href='/frontend/styles/styles.css' class='link.css' id='link.css'>
+    <script src='/frontend/scripts/scripts.js' class='link.js' id='link.js'></script>
+</head>
+<body class='body' id='body'>
+    <main class='main' id='main'>
+        <header class='header' id='header'>
+            <h1 class="H" id="H"><img class="HLogo" id="HLogo" src="/frontend/sources/Masterbasics.com-logo.jpg" alt="com-logo">MasterBasics</h1>
+        </header>
+        <aside class='aside' id='aside'>
+            <section class="intro" id="intro">
+                <img class="user" id="user" src="/frontend/sources/Arshdeep_Prof.jpg" alt="User">
+                <h1 class="uname" id="uname">Dev. Arshdeep Singh Ramgarhia</h1>
+            </section>
+            <section class="details" id="details">
+                    <b class="dpreb" id="dpreb">Profession:</b><br> Web Developer, Designer and Manager<br><br>
+                    <b class="dpreb" id="dpreb">Skills:</b><br> Full Stack Web Development, AI Expert, Rapid Learner, Know about 8 coding languages(<b>3 mastered</b>)<br><br>
+                    <b class="dpreb" id="dpreb">DOB:</b><br> July 24, 2009<br><br>
+                    <b class="dpreb" id="dpreb">Contact:</b><br> 9636879767<br><br>
+                    <b class="dpreb" id="dpreb">Email:</b><br> kalwindra.1979@gmail.com<br>
+            </section>
+        </aside>
+        <article class='article' id='article'>
+            <h1>Hi, I am Arshdeep Singh, a Programmer.</h1>
+            <p>I am blogging my Python Codes here.</p>
+            <details>
+                <summary>String</summary>
+                <pre class="codespace" id="codespace">
+                    <ol>
+                        <li><b>#Basic String Operations and Functions</b></li>
+                        <li>str="this is my string" <b>#just create a variable and assign it a string, coated in single/double inverted commas.</b></li>
+                        <li>a="AsDFGh"</li>
+                        <li>num="1234" <b>#Can also be assign a value or a number.</b></li>
+                        <li>print(a+str) <b>#Output: "AsDFGhthis is my string", it just adds the strings.</b></li>
+                        <li>print(a*5) <b>#Output: "AsDFGhAsDFGhAsDFGhAsDFGhAsDFGh", it just multiplies the string the times told.</b></li>
+                        <li>print(len(a)) <b>#prints the number of characters in the string.</b></li>
+                        <li>l=list(str) <b>#prints a list consisting every character of the string as an indexholder.</b></li>
+                        <li>"AsDfGh".lower()</li>
+                        <li>a.lower()</li>
+                        <li>a.upper()</li>
+                        <li>b=str.split()</li>
+                        <li>"-".join(l)</li>
+                        <li>"".join(l)</li>
+                        <li>" ".join(l)</li>
+                        <li>a.join(l)</li>
+                        <li>c=a.isdigit()</li>
+                        <li>d=num.isdigit()</li>
+                    </ol>
+                </pre>
+            </details>
+            <details>
+                <summary>Odd-Even</summary>
+                <pre class="codespace" id="codespace">
+                    <ol>
+                        <li><b>#Odd Even</b></li>
+                        <li>num=int(input("Enter your number:")) <b>#Taking a number as input to be proccesssed</b></li>
+                        <li>if (num%2==0): <b>#If 2 divides the input number without leaving remainder</b></li>
+                        <li>    print("No. is Even") <b>#print that input number is even</b></li>
+                        <li>else: <b>#If no,</b></li>
+                        <li>    print("No. is Odd") <b>#So print that the input number is Odd.</b></li>
+                </ol>
+                </pre>
+            </details>
+            <details>
+                <summary>Toss a coin</summary>
+                <pre class="codespace" id="codespace">
+                    <ol>
+                        <li><b>#Toss a Coin</b></li>
+                        <li>import random as rd <b>#import the random module as/with any name.</b></li>
+                        <li>num=rd.randint(1,2) <b>#Choose a random integer between 1 and 2</b></li>
+                        <li>if num==1: <b>#If the number is 1</b></li>
+                        <li>    print("You got heads!") <b>#print you got heads</b></li>
+                        <li>else: <b>#If it's not 1</b></li>
+                        <li>    print("You got tails!") <b>#print you got tails</b></li>
+                    </ol>
+                </pre>
+            </details>
+            <details>
+                <summary>Guess the Number Game</summary>
+                <pre class="codespace" id="codespace">
+                    <ol>
+                        <li><b>#Guess the number game</b></li>
+                        <li>import random as rd <b>#Import random as/with any name</b></li>
+                        <li>num=rd.randint(1,10) <b>#Choose a random integer from 1 to 10</b></li>
+                        <li>guess=None</li>
+                        <li>attempt=0</li>
+                        <li>while (guess!=num): <b>#Repeat the loop until guess is not equal to the random number</b></li>
+                        <li>attempt+=1 <b>#Each time the loop works increase te attempt by 1 to get the number of attempts it took to guess</b></li>
+                        <li>guess=int(input("Your Guess=")) <b>#Ask the user to guess a number from 1 to 10</b></li>
+                        <li>print("Your guess is correct!", num, "is the right answer.) <b>If the loop ends, Congratulate and tell the randomly chosen number</b></li>
+                        <li>print("Your guess it in", attempt, "attempt(s).") <b>#And also tell the number of attempts the user took.</b></li>
+                    </ol>
+                </pre>
+            </details>
+
+            <h1>That's all of my blogs until a new one is uploaded.</h1>
+        </article>
+        <footer class='footer' id='footer'></footer>
+     </main>
+</body>
+</html>
